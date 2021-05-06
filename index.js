@@ -9,7 +9,7 @@ function iterativeLog(array) {
 
 function iterate(callback) {
   ar = [1,2,3]
-  ar.forEach (iterativeLog)
+  ar.forEach (callback)
   return ar
   
 }
