@@ -10,6 +10,7 @@ function iterativeLog(array) {
 function iterate(callback) {
   ar = [1,2,3]
   ar.forEach (iterativeLog)
+  return ar
   
 }
 
