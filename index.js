@@ -16,10 +16,10 @@ function iterate(callback) {
 
 
 
-function doToArray(callback) {
+function doToArray(array, callback) {
   
-   ar.forEach (callback)
-  return ar
+   array.forEach (callback)
+  return array
     
  
 }
